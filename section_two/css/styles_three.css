@@ -1,0 +1,35 @@
+/* ids have the hash symbol*/
+
+#heading {
+  padding: 42px;
+  background: black;
+  -webkit-animation: myAnimation 5s infinite;
+  animation: myAnimation 5s infinite;
+
+}
+
+@-webkit-keyframes 'myAnimation' {
+  50% {
+    background-color: red;
+  }
+}
+
+@keyframes 'myAnimation' {
+  50% {
+    background-color: red;
+  }
+}
+
+
+/* So here we are calling our ids*/
+#page-title {
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Here we are calling our class*/
+.content {
+  font-family: sans-serif;
+  font-size: .8em;
+
+}
