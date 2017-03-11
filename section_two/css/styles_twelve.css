@@ -1,0 +1,123 @@
+/* ids have the hash symbol*/
+
+body {
+  font-family: sans-serif;
+  /* We place our background image and then say no repeat so when the image runs out*/
+  /* it doesnt repeat itself eg the image is shown in 3 or 4 squares.*/
+  background: url('../imgs/fire.jpeg') no-repeat center center fixed;
+  /*Here we are specifying in certain browsers as well as a default fall back that this image will be the cover*/
+  /*Basically you can stretch the page as much as you want but this will always be the background*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+#heading {
+  padding: 42px;
+  background: white;
+  border: 7px solid red;
+}
+
+
+/* So here we are calling our ids*/
+#page-title {
+  font-family: 'Inconsolata', monospace;
+  color: red;
+}
+
+/* Here we are calling our class*/
+.content {
+  /*After our specified font we put a comma then a fall back font such as sans seriff so for whatever reason*/
+  /*Our imported fonts arent working they will fall back on to sans seriff.*/
+  font-family: 'Karla', sans-serif;
+  font-size: 1em;
+  background: white;
+  border-left: 10px solid #ab3939;
+  border-right: 10px solid #ab3939;
+  border-bottom: 10px solid #ab3939;
+  /*We can hard code in the value*/
+  height: 150px;
+
+}
+
+.heading3 {
+  background: white;
+  font-size: 2em;
+
+}
+
+#divone {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  /* Or we can put in a percentage of the screen value. This is obviouslly the more flexible option.*/
+  width: 40%;
+}
+
+/*Adding in a new class with the use of span tags in our main html*/
+
+.highlight {
+  background-color: yellow;
+  font-weight: 300;
+  /*Style obviously*/
+  font-style: italic;
+  /*Small caps*/
+  font-variant: small-caps;
+  /*Capitalize all of them*/
+  text-transform: uppercase;
+  /*Or choosing a shadow for the text*/
+  text-shadow: .5px 0 1px red;
+}
+
+
+#pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.package {
+  /*We need to put all our animation in the parent class*/
+  /*We need to also declare browsers for compatibility reasons.*/
+  -webkit-transition: all 100ms ease-out 1s;
+  -moz-transition: all 100ms ease-out 1s;
+  -o-transition: all 100ms ease-out 1s;
+  transition: all 100ms ease-out 1s;
+  background-color: #e8e8e8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 50px;
+  font-size: 1.2em;
+  border-bottom: 10px solid red;
+  width: 300px;
+}
+/*This is our pseudo for package class*/
+.package:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+/*This is for pseudo classes.*/
+/*This one is for an a tag and the link.*/
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: #ab3939;
+}
+
+a:active {
+
+}
