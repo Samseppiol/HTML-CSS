@@ -72,7 +72,7 @@ header a:hover {
 /*In this one we want to over riude the width and height for the search bar to make it bigger.*/
 #search-box {
   width: 600px;
-  height: 30px;
+  height: 35px;
   border: 1px solid #999999;
   padding: 5px;
   /*Here we are saying we want 0 px on the top 0 on the right 15 on the bottom and 0 on the left.*/

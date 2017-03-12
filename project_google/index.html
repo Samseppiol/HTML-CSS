@@ -17,6 +17,20 @@
         <!-- We create a button for the sign in element. -->
         <li><input type="button" id="sign-in" value="Sign-In"/></li>
       </ul>
+
+
+      <!--  We are going to add a small amount of javascript to our webpage-->
+      <!-- So when the user first comes to the site they are auto focused to the search text box just like on google. -->
+      <script type="text/javascript">
+        function focusIt()
+        {
+          var my_search_box = document.getElementById("search-box");
+          my_search_box.focus();
+        }
+
+        onload = focusIt;
+      </script>
+
     </header>
 
     <!-- A main div for our centre content -->
