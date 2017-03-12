@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML forms</title>
+  </head>
+
+  <body>
+    <!-- You can use either get or post for method. -->
+    <!-- Difference is get rrequest you place the parameters in the url bar -->
+    <!-- With a post you keep them in the post request which means only the server recieving the request can see it -->
+    <!--Basically a post method is for things like user and passwords and get is when you search something on google.  -->
+    <form action="contact_form.php" method="get">
+      <label for="name">Name:</label>
+      <!-- With this required tag we are saying don't let this form go ahead unless there is something in the required text field -->
+      <!-- obviously don't rely on this as it is easily bypassed by removing it in the page source. -->
+      <!-- Obviously something like this needs to be properly implemented in the back end. -->
+      <input type="text" name="name" placeholder="John Smith etc" required><br>
+
+      <label for="name">Email:</label>
+      <input type="text" name="email" placeholder="john@smith.com" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea name="message" rows="15" cols="100"></textarea> </br>
+
+
+      <br>
+      <input type="submit" value="Send contact Request">
+
+    </form>
+
+  </body>
+
+</html>
