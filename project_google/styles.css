@@ -1,0 +1,53 @@
+/*An asterisk in css signifies everything.*/
+* {
+  margin: 0px;
+}
+
+/*Here we just style the basic header attributes.*/
+header {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: right;
+}
+/*Here we specifically target the bullet points. Ths display inline block removes the bullet points and */
+/*places the listed items side by side.*/
+header ul li {
+  display: inline-block;
+  margin: 13px;
+}
+
+/*because our content is an id we use the hash symbol*/
+/*We use a margin to push it from the top. We use display flex to keep it centered and flex wrap to make sure it stays */
+/*in the centre if you stretch the page. We justify it as centre then simply align items centre.*/
+#content {
+  margin-top: 200px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Clear both lets us have items on top of each and by default not side to side.*/
+#logo {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+#search {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  margin-top: 26px;
+}
+
+/*In this one we want to over riude the width and height for the search bar to make it bigger.*/
+#search-box {
+  width: 600px;
+  height: 30px;
+  border: 1px solid #999999;
+  padding: 5px;
+  /*Here we are saying we want 0 px on the top 0 on the right 15 on the bottom and 0 on the left.*/
+  margin: 0px 0px 15px 0px;
+}
