@@ -61,9 +61,7 @@
 
 /*Styles for our wrapper which is the main div for all our images.*/
 #wrapper {
-  width: 90%;
-  max-width: 1100px;
-  min-width: 100px;
+  width: 100%;
   margin: 50px auto;
 }
 
@@ -76,8 +74,8 @@
   -moz-column-count: 3;
   -moz-column-gap: 10px;
   -moz-column-fill: auto;
-  column-count: 3  ;
-  column-gap: 10px  ;
+  column-count: 3;
+  column-gap: 10px;
   column-fill: -webkit-animation-duration: 0s;
   animation-duration: 0s;to;
 }
