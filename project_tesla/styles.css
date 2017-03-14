@@ -6,7 +6,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Raleway';
 }
 
 /*Our header styling*/
@@ -40,7 +40,7 @@ html {
 /*Our main centre body styling*/
 
 #content {
-  margin-top: 25%;
+  margin-top: 23%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
