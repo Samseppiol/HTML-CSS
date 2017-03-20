@@ -1,5 +1,8 @@
 HTML/CSS Bootcamp course on Udemy by Jordan Hudgens
 
+UPDATE: 20 MAR 2017
+Course completed. The last project/section involving bootstrap I believe really helped me understand the whole bootstrap framework as well as website responsiveness.
+
 
 UPDATE: 12 MAR 2017
 Have just finished all of the html and css exercises, some of it was very valuable and interesting and some of it
